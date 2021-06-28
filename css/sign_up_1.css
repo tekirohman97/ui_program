@@ -1,0 +1,135 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@200;300;400;500;600;700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    max-width: 600px;
+    background-color: rgb(233, 233, 233);
+    font-family: 'Montserrat', sans-serif;
+    margin: auto ;
+    
+}
+/* #TODO Halaman Welcome  */
+.container {
+    width: 100%;
+    height: 100vh;
+    display: grid;
+    grid-template-columns: 100%;
+    grid-template-rows: 140px 150px 150px 50px auto;
+    background-color: rgb(255, 255, 255);
+    padding: 0px 20px;
+    grid-gap: 20px;
+    /* margin: 20px; */
+}
+.judul{
+    padding-top: 50px;
+}
+.judul h6{
+    text-align: center;
+    font-weight: 700;
+    font-size: 24px;
+}
+.judul p{
+    text-align: center;
+    padding-top: 15px;
+    font-weight: 400;
+    font-size: 14px;
+    color: #6F6F6F;
+}
+.btn-facebook {
+    width: 90%;
+    background-color: #395185;
+    border: none;
+    height: 47px;
+    outline: none;
+    text-decoration: none;
+    border-radius: 10px;
+    color: #fff;
+    text-align: center;
+    font-weight: 600;
+    margin: 2px 0;
+    cursor: pointer;
+    transition: 0.5s;
+    font-weight: 500;
+    font-size: 14px;
+    place-self: end center;
+    padding: 12px 0px;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+}
+.btn-facebook img{
+    margin-right: 16px;
+}
+.btn-google {
+    width: 90%;
+    background-color: #ffffff;
+    border-color: black;
+    border: solid 0.25px #7E7E7E;
+    height: 47px;
+    outline: none;
+    text-decoration: none;
+    border-radius: 10px;
+    color: rgb(39, 39, 39);
+    text-align: center;
+    font-weight: 600;
+    margin: 2px 0;
+    cursor: pointer;
+    transition: 0.5s;
+    font-weight: 500;
+    font-size: 14px;
+    place-self: start center;
+    padding: 12px 0px;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+}
+.btn-google img{
+    margin-right: 16px;
+}
+.btn-circle{
+    place-self: center;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    margin: auto;
+}
+.box-2{
+    background: #FFFFFF;
+    box-shadow: -6px 5px 5px rgba(0, 0, 0, 0.05);
+    border-radius: 30px;
+    width: 60px;
+    height: 60px;
+    margin: 0px 10px;
+    display: grid;
+    place-items: center;
+}
+.footer{
+    place-self: center;
+}
+.footer h6{
+    text-align: center;
+    font-size: 10px;
+    padding: 0px 40px;
+    line-height: 18px;
+}
+.footer h6 a{
+    font-weight: 600;
+    text-decoration: none;
+    color: brown;
+}
+.footer p{
+    text-align: center;
+    font-size: 10px;
+    font-weight: 400;
+}
+.footer p a{
+    text-decoration: none;
+    color: brown;
+}
+
+
