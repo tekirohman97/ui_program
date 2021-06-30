@@ -1,0 +1,234 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200;0,300;0,400;0,600;0,700;1,400&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    max-width: 600px;
+    background-color: rgb(233, 233, 233);
+    font-family: 'Nunito', sans-serif;
+    margin: auto ;
+}
+
+.container {
+    width: 100%;
+    min-height: 100vh;
+    display: grid;
+    grid-template-columns: 100%;
+    grid-template-rows: 60px auto;
+    background-color: rgb(233, 233, 233);
+    grid-gap: 5px;
+    padding: 0px;
+    /* margin: 20px; */
+}
+
+.header {
+    height: 60px;
+    display: grid;
+    grid-template-columns: 50px auto 50px;
+    grid-gap: 20px;
+    padding-top: 24px;
+    justify-items: center;
+    background-color: white;
+    padding: 20px;
+}
+.header a img{
+    width: 24px;
+}
+.header-menu a{
+    padding: 7px 15px;
+    text-decoration: none;
+    font-weight: 600;
+    font-size: 16px;
+}
+.not-active{
+    color: #9F9F9F;
+}
+.active{
+    border-bottom: 2.5px solid #B82935;
+    color: #1A1A1A;
+}
+
+.content {
+    display: grid;
+    grid-template-columns: 100%;
+    grid-template-rows: 1fr;
+    background-color: rgb(233, 233, 233);
+    grid-gap: 5px;
+}
+
+.box {
+    display: grid;
+    grid-template-columns: 100%;
+    grid-template-rows: 70px auto 276px auto;
+    margin: 0px 0px;
+    background-color: white;
+}
+ /* #TODO Header Content */
+
+.header-content{
+    margin: 15px 15px 10px 15px;
+    display: grid;
+    grid-template-columns: 50px auto 40px;
+    grid-template-rows: 50px;
+    
+}
+.foto-profile{
+    align-self: center;
+    clip-path: circle();
+}
+.foto-profile img{
+    width: 50px;
+}
+.nama-profile{
+    display: flex;
+    flex-direction: column;
+    line-height: 5px;
+}
+.nama-profile h6{
+    padding-top: 5px;
+    font-weight: 400;
+    font-size: 15px;
+    color: rgba(26, 26, 26, 1);
+}
+.nama-profile p{
+    font-weight: 400;
+    font-size: 10px;
+    color: rgba(111, 111, 111, 1);
+}
+.navigasi{
+    place-self: center end;
+}
+
+/* #TODO Deskripsi */
+
+.deskripsi-content{
+    margin: 0px 20px 15px 20px;
+    font-weight: 400;
+    font-size: 12px;
+}
+
+/* #TODO Image Content */
+
+.img-content img{
+    width: 100%;
+    height: 276px;
+    position: relative;
+    object-fit: cover;
+    object-position: center;
+}
+
+/* #TODO Action Footer */
+.footer-content{
+    display: grid;
+    grid-template-columns: 50px 50px 50px auto;
+    margin: 13px 18px 17px 21px;
+    height: 40px;
+}
+.share-left{
+    place-self: center start;
+}
+.share-right{
+    place-self: center end;
+}
+
+.btn-facebook {
+    width: 90%;
+    background-color: #395185;
+    border: none;
+    height: 47px;
+    outline: none;
+    border-radius: 10px;
+    color: #fff;
+    font-weight: 600;
+    margin: 2px 0;
+    cursor: pointer;
+    transition: 0.5s;
+    font-weight: 500;
+    font-size: 14px;
+    place-self: center;
+}
+.btn-facebook img{
+    margin: 0px 16px;
+}
+
+.btn-google {
+    width: 90%;
+    background-color: #ffffff;
+    border-color: #7E7E7E;
+    border-width: 0.25px;
+    outline: none;
+    height: 47px;
+    border-radius: 10px;
+    color: rgb(24, 24, 24);
+    font-weight: 600;
+    margin: 5px 0;
+    cursor: pointer;
+    font-size: 14px;
+    transition: 0.5s;
+    font-weight: 500;
+}
+.btn-google img{
+    margin: 0px 16px;
+}
+
+.content p {
+    font-weight: 500;
+    font-size: 14px;
+}
+.input_nohp{
+    width: 90%;
+    height: 47px;
+    display: grid;
+    gap: 7px;
+    grid-template-columns: 60px 10px 20px auto;
+    grid-template-rows: 1fr;
+    align-self: center;
+    border: 1px solid #7E7E7E;
+    border-radius: 10px;
+
+}
+.input_nohp p{
+    font-size: 14px;
+    font-weight: 500;
+    padding-top: 50%;
+}
+.line{
+    padding-top: 50%;
+}
+.pacholder-2 input{
+    border: 0;
+    padding: 10px 5px;
+    width: auto;
+    font-size: 14px;
+    width: 100%;
+    outline: none;
+}
+
+.btn-login  {
+    width: 90%;
+    background-color:#B82935;
+    border: none;
+    outline: none;
+    height: 49px;
+    border-radius: 10px;
+    color: #fff;
+    text-transform: uppercase;
+    font-weight: 600;
+    margin: 5px 0;
+    cursor: pointer;
+    transition: 0.5s;
+    font-weight: 500;
+    font-size: 14px;
+    align-self: flex-end;
+}
+.footer{
+    padding-top: 40px;
+}
+.footer p{
+    font-weight: 400;
+    font-size: 10px;
+    text-align: center;
+}
